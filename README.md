@@ -78,8 +78,8 @@ lexismatrix-enterprise/
 | | >> [403 FORBIDDEN]: Screen rule active. Restricted from iManage DMS & Teams Deal Channel.     | |
 | +-----------------------------------------------------------------------------------------------+ |
 |                                                                                                   |
-| +-- ACTIVE LEGAL MATTERS ------------------------+ +-- PURVIEW DLP & SENSITIVITY SCANNER --------+ |
-| | GT-2026-8841 Apex Semi $4.8B Acquisition       | | Input: Preliminary merger terms, SSN, Priv. | |
+| +-- ACTIVE LEGAL MATTERS ------------------------+ +-- PURVIEW DLP & SENSITIVITY SCANNER -------+ |
+| | GT-2026-8841 Apex Semi $4.8B Acquisition       | | Input: Preliminary merger terms, SSN, Priv.| |
 | | Purview Sensitivity: Highly Confidential (MNPI)| | Policy Risk Rating: CRITICAL               | |
 | | Ethical Wall: R. Sterling, K. Miller [BLOCKED] | | Copilot Studio Grounding: BLOCKED (MNPI)   | |
 | +------------------------------------------------+ +--------------------------------------------+ |

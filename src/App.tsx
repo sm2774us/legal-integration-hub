@@ -14,6 +14,7 @@ import { DualStackCompareTab } from './components/DualStackCompareTab';
 import { DevOpsPipelinesTab } from './components/DevOpsPipelinesTab';
 import { AiDeveloperExTab } from './components/AiDeveloperExTab';
 import { DownloadsGuideTab } from './components/DownloadsGuideTab';
+import { ComplianceAuditTab } from './components/ComplianceAuditTab';
 
 import {
   INITIAL_MATTERS,
@@ -30,6 +31,7 @@ import {
   Lock,
   Cpu,
   ShieldAlert,
+  ShieldCheck,
   Bot,
   Layers,
   GitBranch,
@@ -65,6 +67,7 @@ export default function App() {
     { id: 'matters_walls', label: 'Matters & Ethical Walls', icon: Lock },
     { id: 'dms_mcp', label: 'iManage DMS & MCP Studio', icon: Cpu },
     { id: 'purview_dlp', label: 'Purview DLP Scanner', icon: ShieldAlert },
+    { id: 'compliance_audit', label: 'Compliance Audit', icon: ShieldCheck },
     { id: 'copilot_studio', label: 'Copilot Studio & Graph', icon: Bot },
     { id: 'dual_stack', label: 'Dual-Stack Compare', icon: Layers },
     { id: 'devops_cicd', label: 'DevOps & Protection', icon: GitBranch },
@@ -134,6 +137,10 @@ export default function App() {
         )}
 
         {activeTab === 'purview_dlp' && <PurviewDlpTab />}
+
+        {activeTab === 'compliance_audit' && (
+          <ComplianceAuditTab activeStack={activeStack} />
+        )}
 
         {activeTab === 'copilot_studio' && (
           <CopilotStudioTab activeStack={activeStack} />

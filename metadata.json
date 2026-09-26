@@ -1,0 +1,6 @@
+{
+  "name": "LexisMatrix - Enterprise Legal Integration Hub & Dual-Stack Showcase",
+  "description": "Production-grade enterprise integration platform for top global law firms showcasing Microsoft 365 Copilot, Graph API, iManage DMS, Purview DLP, ethical walls, and dual-stack FastAPI & .NET Minimal API architectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
